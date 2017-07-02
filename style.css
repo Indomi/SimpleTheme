@@ -1,0 +1,100 @@
+/**
+Theme Name: SimpleDemo
+Theme URI: none
+Description: This is my theme for my blog
+Version: 1.0
+Author: Indomi
+Author URI: https://www.hanfy.site/
+*/
+*{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.clearfix:after{
+    content: '';
+    height: 0;
+    clear: both;
+    display: block;
+    visibility: hidden;
+}
+ul{
+    list-style: none;
+}
+a:link a:hover a:active a:visited{
+    text-decoration: none;
+    color: #000000;!important;
+}
+body{
+    min-width: 1080px;
+
+}
+#main{
+    padding:20px 10%;
+}
+#header{
+    width: 100%;
+    height:80px;
+    background: #c5c6ce;
+    color: #000;
+    line-height: 80px;
+}
+#header span{
+    font-size: 20px;
+}
+#header h1 {
+    margin-left: 20px;
+    display: inline-block;
+}
+#submit{
+    float: right;
+    margin-right: 20px;
+}
+#submit li{
+    display: inline-block;
+}
+#container{
+    display: inline-block;
+    color: #000;
+}
+.post{
+    width:auto;
+    height: 200px;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-top: 30px;
+    padding: 15px;
+    box-shadow: 0px 2px 1px #333;
+    opacity: 0.7;
+}
+#sidebar{
+    float: right;
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 10px;
+}
+#footer{
+    line-height: 100px;
+    text-align: center;
+    width:100%;
+    height: 100px;
+    background: #23283d;
+    opacity: 0.9;
+}
+.block{
+    margin-bottom: 40px;
+    padding: 10px;
+    height:auto;
+    box-shadow: 0px 2px 1px #333;
+}
+.block-title{
+    padding: 10px;
+    font-weight: normal;
+    border-bottom: 1px solid #999;
+    margin-bottom: 10px;
+}
